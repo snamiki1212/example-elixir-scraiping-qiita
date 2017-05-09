@@ -37,6 +37,6 @@ defmodule Webscraping.Mixfile do
     ]
   end
   def escript do
-    [main_module: Webscraping.Parallel]
+    [main_module: Webscraping.CLI]
   end
 end

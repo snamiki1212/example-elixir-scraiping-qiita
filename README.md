@@ -1,24 +1,22 @@
-## WebScraping & 並行処理
-並行処理にて指定したタグ名のフォロワー数・投稿数をQiita からWebスクレイピングしてレンダリング
+## example-elixir-scraiping-qiita
 
-## exs
-- cli.ex  
-  コマンドラインインターフェイス
+Scraping using Elixir on Qiita. Specific tag name and then fetch follower and post number Parallelly or sequentially
 
-- single.ex  
-  シングルプロセスで処理を行う
+### Installation
 
-- parallel.ex  
-  並行処理で処理を行う
+TODO:
 
-## how to
-1. シングルプロセスで処理  
+## How To
+
+```elixir
+# single process
 iex(1)> webscraping single
 
-2. 並行処理  
+# multi processes
 iex(1)> webscraping parallel
+```
 
+## Acknoledges
 
-
-#
-
+This repository was managed https://github.com/namiky/elixir-webscraping first, but move to here.
+Unfortunately, I forget an original repository's account pw/id/email ...

@@ -18,5 +18,4 @@ iex(1)> webscraping parallel
 
 ## Acknoledges
 
-This repository was managed https://github.com/namiky/elixir-webscraping first, but move to here.
-Unfortunately, I forget an original repository's account pw/id/email ...
+This repository was moved https://github.com/namiky/elixir-webscraping to here.
